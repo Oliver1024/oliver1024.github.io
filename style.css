@@ -1,4 +1,4 @@
-/*Main Styles*/
+/*Main pages*/
 body {
     font-size: 20px;
     margin: 0px;
@@ -17,7 +17,7 @@ body {
     height: 100%;
 }
 
-/*Nav Bar Styles*/
+/*Navbar styles*/
 nav {
     position: fixed;
     width: 100%;
@@ -81,7 +81,7 @@ nav {
     color: lightcoral;
 } 
 
-/* Facts About Me Styles*/
+/* about styles*/
 .facts-about-me-wrapper {
     margin-top: 52px;
 }
@@ -90,9 +90,6 @@ nav {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-  
-.fact {
     position: relative;
 }
   
@@ -117,17 +114,9 @@ nav {
     padding: 9%;
 }
 
-
 .img-and-text-wrapper img {
     max-width: 20%;
     margin: 5px;
-}
-
-#tech-knowledge-img {
-    max-width: 40%;
-    opacity: 0.7;
-    margin: 5px;
-    
 }
 
 .img-and-text-wrapper ul {
@@ -136,32 +125,6 @@ nav {
     transition: 1s;
     color: transparent;
     font-weight: 500;
-}
-
-#os-img {
-    max-width: 35%;
-    opacity: 1;
-    margin: 5px;
-
-}
-
-#tech-knowledge-img {
-    max-width: 40%;
-    opacity: 1;
-    margin: 5px;
-
-}
-
-#languages-img {
-    max-width: 30%;
-    opacity: 1;
-    margin: 5px;
-}
-
-#hobbies-img {
-    max-width: 30%;
-    opacity: 1;
-    margin: 5px;
 }
 
 #technical-languages {
@@ -221,7 +184,7 @@ nav {
     color: black !important;
 }
 
-/*About Me Page*/
+/*Abou page*/
 .main-content-wrapper {
     margin-top: 52px;
 }
@@ -255,7 +218,6 @@ nav {
     font-size: 1.5rem;
 }
 
-
 .social-media-wrapper {
     display: flex;
     margin-bottom: 10px;
@@ -281,8 +243,6 @@ nav {
     width: 100%;
     overflow: hidden;
     height: auto;
-    /* background-position: center;
-    background-size: cover; */
     opacity: 0.45;
 }
 
@@ -325,7 +285,6 @@ nav {
     opacity: 0.3;
 }
 
-
 .project-text-wrapper {
     display: flex;
     flex-direction: column;
@@ -358,25 +317,17 @@ nav {
     padding-right: 5px;
 }
 
-
-
-/*Places Ive Been Page*/
-.places-ive-been-wrapper {
+/*skills-interests*/
+.skills-interests {
     margin-top: 52px;
 }
 
-.places-ive-been {
+.skill-interest {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.author {
-    font-size: 1.2rem;
-    margin-top: 10px;
-
-}
-
-.places-ive-been-header {
+.skill-interest-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -395,13 +346,13 @@ nav {
     color: darkcyan;
 }
 
-.place {
+.skillsinterests {
     display: flex;
     position: relative;
     justify-content: center;
 }
 
-.place-img-background {
+.skillsinterests-img-background {
     height: 350px;
     width: 100%;
     background-size: cover;
@@ -410,7 +361,7 @@ nav {
     opacity: 0.8;
 }
 
-.place-text-wrapper {
+.skillsinterests-text-wrapper {
     color: white;
     position: absolute;
     bottom: 15px;
@@ -418,10 +369,9 @@ nav {
 }
 
 /* Media Queries */
-
 @media only screen and (max-width: 900px) {
-    /* My Travels*/
-
+    
+    /* Skills & interests*/
     .project-text-wrapper h3 {
         border: 2px white solid;
         text-align: center;
@@ -439,27 +389,26 @@ nav {
         font-size: 0.8rem;
     }
 
-    .places-ive-been-header {
+    .skill-interest-header {
         font-size: 2.5rem;
         font-family: 'Open Sans', sans-serif;
         
     }
 
-    .places-ive-been {
+    .skill-interest {
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
         grid-gap: 0.3rem;
     }
 
-    .place {
+    .skillsinterests {
         border: 2px solid black;
     }
 
-    .place-text-wrapper {
+    .skillsinterests-text-wrapper {
         font-size: 0.7rem;
     }
 
     /* My Projects */
-
     .projects {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 0.1rem;
@@ -483,14 +432,8 @@ nav {
         font-size: 0.8rem;
     }
 
-    .author {
-        font-size: 0.9rem;
-
-    }
-
-    /* About Me */
+    /* About page*/
     .grid-wrapper {
-        /* grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); */
         width: 100%;
     }
 
@@ -557,8 +500,6 @@ nav {
     }
 }
 
-
-
 @media only screen and (max-width: 280px) {
     .navlink {
         font-size: 0.35rem;
@@ -568,31 +509,26 @@ nav {
         font-size: 0.8rem;
     }
 
-    .places-ive-been-header {
+    .skill-interest-header {
         font-size: 2.5rem;
         
     }
 
-    .author {
-        font-size: 0.9rem;
-
-    }
-
-    .places-ive-been {
+    .skill-interest {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         grid-gap: 0.3rem;
     }
 
-    .place {
+    .skillsinterests {
         border: 2px solid black;
     }
 
-    .place-text-wrapper {
+    .skillsinterests-text-wrapper {
         font-size: 0.7rem;
     }
 }
 
-@media only screen and (min-width: 415px) and (max-width: 666px) {
+@media only screen and (min-width: 415px) and (max-width: 665px) {
     .project-text-wrapper ul{
         font-size: 0.6rem;
     }

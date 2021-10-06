@@ -29,8 +29,6 @@ nav {
     z-index: 1;
     background-color:rgb(202, 189, 189);
     opacity: 0.95;
-    
-
 }
 
 .leftofnav {
@@ -90,7 +88,6 @@ nav {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* position: relative; */
 }
   
 .facts-img-background {
@@ -296,12 +293,12 @@ nav {
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .project-text-wrapper li {
     margin-bottom: 10px;
 }
+
 .project-text-wrapper ul {
     font-size: 1.2rem;
     padding-left: 20px;
@@ -420,7 +417,6 @@ nav {
 
     .projects-header {
         font-size: 1.2rem;
-
     }
 
     .project-text-wrapper ul{

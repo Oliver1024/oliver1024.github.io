@@ -484,6 +484,13 @@ nav {
 
     .img-and-text-wrapper{
         padding:0;
+        position: relative;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .img-and-text-wrapper h2{
+        margin: 1px;
     }
 
     .img-and-text-wrapper span{

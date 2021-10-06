@@ -435,6 +435,7 @@ nav {
     /* About page*/
     .grid-wrapper {
         width: 100%;
+        grid-template-columns: 1fr;
     }
 
     .projects-wrapper {
@@ -445,12 +446,14 @@ nav {
     .professional-img-wrapper {
         display: flex;
         padding: 0;
+        height: auto;
+        align-items: center;
         justify-content: center;
     }
 
     .professional-img-wrapper img {
-        width: 50%;
-        height: 50%
+        width: 60%;
+        height: auto;
     }
 
     .description-wrapper {

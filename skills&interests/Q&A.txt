@@ -1,0 +1,24 @@
+1. What was the most challenging piece of this assignment?  Did you find it easy or challenging to work with HTML and CSS?  
+How long did this overall assignment take you?
+I think it is still very challenging, if I want to design a great personal homepage on the premise of using only HTML and CSS.
+The most difficult part should be CSS. I don’t know how to modify and challenge the format. Many parameters are unfamiliar.
+It took me almost one week.
+
+2. What decisions did you make when you made your site mobile friendly?
+I try to use @media to assist. So that my webpage is still very user-friendly when accessed by mobile users. 
+At the same time, access on the PC side also has good visual effects.
+
+
+3. What did you take into account when you developed the design of your website?  
+Is there anything that you’re particularly proud of?
+First I try to think about how to design my homepage and how to render it, using only HTML and CSS.
+Then I tried to search some materials and reviewed the teacher's slides, and tried to get some new ideas to help me design my webpages.
+
+
+4. Given more time or resources, what additional features would you add to your site in the future? 
+I think I will learn JavaScript by then. And I will try to use something that adds some JS. This can make my homepage more user-friendly. 
+And try to use some external CSS libraries.
+
+5. How many hours did you spend on this assignment?
+I think this homework took more time than I expected. It was originally planned to be completed in 1 day, 
+but in fact it took 3 days. I spent about 30 hours on this project.

@@ -90,7 +90,7 @@ nav {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    position: relative;
+    /* position: relative; */
 }
   
 .facts-img-background {
@@ -390,7 +390,7 @@ nav {
     }
 
     .skill-interest-header {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         font-family: 'Open Sans', sans-serif;
         
     }
